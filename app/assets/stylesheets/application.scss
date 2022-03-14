@@ -1,0 +1,11 @@
+
+@import "bootstrap/scss/bootstrap";
+@import "all";
+@import "sb-admin-2";
+@import "noty/lib/noty";
+@import "noty/src/themes/sunset";
+
+.profile-round{
+  border-radius: 50%;
+  width: 200px;
+}
