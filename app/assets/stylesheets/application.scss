@@ -9,3 +9,54 @@
   border-radius: 50%;
   width: 200px;
 }
+
+.typography{
+  font-family: "Lucida sans-serif;"
+}
+
+.typogaphy{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.typogphy{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
+.cursive {
+  font-family: cursive;
+}
+.title_line {
+    border-bottom: 4px solid #D5D5D5;
+    display: block;
+    height: 1px;
+    margin: 5px auto 0;
+    width: 150px;
+}
+
+.long_title_line {
+    border-bottom: 4px solid #D5D5D5;
+    display: block;
+    height: 1px;
+    margin: 5px auto 0;
+    width: 250px;
+}
+
+h1 {
+    color: #555;
+    font-size: 1.8em;
+    font-weight: 700;
+    line-height: 1.3em;
+    text-align: center;
+    margin: 30px 0 45px;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+
+
