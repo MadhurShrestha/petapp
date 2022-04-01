@@ -1,14 +1,16 @@
-
+<%= render 'shared/header' %>
 <nav class="navbar   navbar-expand navbar-light  p-5 mb-0 ">
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
         <% if (user_signed_in?) %>
-          <li class="nav-item active"> <a class="nav-link" href="#">Home</a> </li>
+        <i class="fa-solid fa-pen-fancy"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fa-solid fa-trash-can-arrow-up"></i>
           <% else %>
-        <% end %>
         <li class="nav-item"> <a class="nav-link" href="#about">About</a> </li>
         <li class="nav-item"> <a class="nav-link" href="#features">Features</a> </li>
         <li class="nav-item"> <a class="nav-link" href="#features">Security</a> </li>
+        <% end %>
+
 
     </ul>
   </div>
